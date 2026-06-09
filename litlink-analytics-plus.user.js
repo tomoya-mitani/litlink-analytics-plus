@@ -160,16 +160,6 @@
     `;
     document.body.appendChild(panel);
 
-    // 初期値を「直近1ヶ月」に設定（JST基準）
-    const toISODate = (d) => {
-      const offset = d.getTimezoneOffset() * 60000;
-      return new Date(d.getTime() - offset).toISOString().split("T")[0];
-    };
-    const today = new Date();
-    const oneMonthAgo = new Date(today.getTime() - 30 * 24 * 60 * 60 * 1000);
-    document.getElementById("lla-s").value = toISODate(oneMonthAgo);
-    document.getElementById("lla-e").value = toISODate(today);
-
     document.getElementById("lla-go").onclick = async () => {
       const rEl = document.getElementById("lla-r");
       rEl.innerHTML =
