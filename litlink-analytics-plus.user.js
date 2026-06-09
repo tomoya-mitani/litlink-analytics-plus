@@ -6,8 +6,8 @@
 // @author       tomoya-mitani
 // @match        https://lit.link/admin/analytics*
 // @connect      prd.api.lit.link
-// @updateURL    https://github.com/tomoya-mitani/litlink-analytics-plus/raw/main/litlink-analytics-plus.user.js
-// @downloadURL  https://github.com/tomoya-mitani/litlink-analytics-plus/raw/main/litlink-analytics-plus.user.js
+// @updateURL    https://raw.githubusercontent.com/tomoya-mitani/litlink-analytics-plus/main/litlink-analytics-plus.user.js
+// @downloadURL  https://raw.githubusercontent.com/tomoya-mitani/litlink-analytics-plus/main/litlink-analytics-plus.user.js
 // @run-at       document-start
 // ==/UserScript==
 
