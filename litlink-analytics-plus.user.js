@@ -153,7 +153,7 @@
     panel.innerHTML = `
       <div class="close" onclick="document.getElementById('lla-panel').remove()">&times;</div>
       <h2>📊 lit.link 期間集計</h2>
-      <label>開始日</label><input type="date" id="lla-s">
+      <label>開始日（直近1ヶ月以内の日付を指定してください）</label><input type="date" id="lla-s">
       <label>終了日</label><input type="date" id="lla-e">
       <button id="lla-go">集計する</button>
       <div id="lla-r"></div>
