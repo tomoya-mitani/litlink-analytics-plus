@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         lit.link Analytics Period Aggregator
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  lit.linkの分析ページで任意期間の閲覧数・クリック数を集計します
-// @author       You
+// @author       tomoya-mitani
 // @match        https://lit.link/admin/analytics*
 // @connect      prd.api.lit.link
+// @updateURL    https://github.com/tomoya-mitani/litlink-analytics-plus/raw/main/lit-link-analytics.user.js
+// @downloadURL  https://github.com/tomoya-mitani/litlink-analytics-plus/raw/main/lit-link-analytics.user.js
 // @run-at       document-start
 // ==/UserScript==
 
